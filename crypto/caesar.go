@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-var dictionary = " abcdefghijklmnopqrstuvxyz1234567890"
+var dictionary = " abcdefghijklmnopqrstuvwxyz1234567890"
 
 // Encrypt apply caesar encryption to a message
 func Encrypt(message string, offset int) (string, error) {
